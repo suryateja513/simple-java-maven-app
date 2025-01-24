@@ -37,7 +37,7 @@ jobs:
       - name: "Build Docker Image"
         run: |
           #!/bin/bash
-          docker build -t maven -f ./simple-java-maven-app-1[my-app]/surya/teja/Dockerfile .
+          docker build -t maven -f "./simple-java-maven-app-1[my-app]/surya/teja/Dockerfile ."
         shell: bash
 
       - name: "Configure GCP SDK"
