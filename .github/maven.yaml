@@ -1,0 +1,6 @@
+name: maven
+
+on:
+  push:
+    branches:
+      - teja
