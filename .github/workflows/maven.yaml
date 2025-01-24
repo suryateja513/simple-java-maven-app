@@ -3,7 +3,7 @@ name: simple-maven
 on:
   push:
     branches:
-      - teja
+      - tejaa
 
 jobs:
   java-maven:
