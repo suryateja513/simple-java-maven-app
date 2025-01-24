@@ -47,7 +47,6 @@ jobs:
         uses: google-github-actions/auth@v2
         with:
           credentials_json: ${{ secrets.SA }}
-        shell: bash
 
       - name: "Tag and push docker images to GAR"
         run: |
