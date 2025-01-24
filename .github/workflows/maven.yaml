@@ -21,7 +21,7 @@ jobs:
       - name: "Install Maven"
         uses: stCarolas/setup-maven@v5
         with:
-          maven-version: 3.4.2
+          maven-version: 3.9.2
 
       - name: "Clean the target files"
         run: |
