@@ -4,3 +4,6 @@ on:
   push:
     branches:
       - teja
+
+jobs:
+  maven-pipeline:
