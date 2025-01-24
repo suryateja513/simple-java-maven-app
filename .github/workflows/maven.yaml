@@ -44,7 +44,7 @@ jobs:
         uses: google-github-actions/setup-gcloud@v2
 
       - name: "Authenticate SA"
-        uses:
+        uses: google-github-actions/auth@v2
         with:
           credentials_json: ${{ secrets.SA }}
         shell: bash
